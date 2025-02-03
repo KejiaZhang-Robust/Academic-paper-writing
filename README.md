@@ -222,12 +222,12 @@ TODO: Latex pre-define
 
 # 📚 AI Tools for Academic Writing
 
-## 🛠️ Recommended AI Tools
+## 🛠️ 1. Recommended AI Tools
 
 1. **GPT Academic** - [GitHub Repository](https://github.com/binary-husky/gpt_academic)
 2. **NextChat (ChatGPT Next Web)** - [GitHub Repository](https://github.com/ChatGPTNextWeb/NextChat)
 
-## 🎯 Useful Prompts
+## 🎯 2. Useful Prompts
 
 - **Bilingual Translation**
 
@@ -252,17 +252,17 @@ TODO: Latex pre-define
 
 # 🎨 Framework Design
 
-## 🖥️ Recommended Software
+## 🖥️ 1. Recommended Software
 
 - **Microsoft PowerPoint (PPT)** – Widely used for creating high-quality visual frameworks, including oral presentation figures.
 - **Visio** – Ideal for complex diagramming and flowchart creation.
 
-## 📝 Font & Style Guidelines
+## 📝 2. Font & Style Guidelines
 
 - **Font Style**: Arial, Helvetica, Sans Serif
 - **Consistent color themes** to maintain readability and professional aesthetics.
 
-## 🎨 Design Resources
+## 🎨 3. Design Resources
 
 - **Vector Graphics Library**: [IconFont](https://www.iconfont.cn/)
 - **Color Palette Generator**: [ColorKit](https://colorkit.co/)
