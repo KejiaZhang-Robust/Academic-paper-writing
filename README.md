@@ -47,9 +47,10 @@ A well-structured LaTeX project enhances readability and simplifies collaboratio
 ```
 
 Best Practices:
-✅ Use \input{} to modularize sections instead of writing everything in main.tex.
-✅ Keep figures and tables in dedicated folders for better file management.
-✅ Follow the conference’s required file structure (e.g., supplementary materials).
+
+- ✅ Use \input{} to modularize sections instead of writing everything in main.tex.
+- ✅ Keep figures and tables in dedicated folders for better file management.
+- ✅ Follow the conference’s required file structure (e.g., supplementary materials).
 
 ## 📚 3. Citation and Reference Formatting
 
@@ -135,7 +136,7 @@ Basic Table (Resizable to Page Width)
 
 Multi-Row & Multi-Column Table
 
-````
+```
 \begin{table}[t]
   \centering
   \caption{Dataset Statistics}
@@ -155,13 +156,12 @@ Multi-Row & Multi-Column Table
 
 📌 Best Practice: For visually appealing tables, reference high-quality examples from ArXiv preprints.
 
-
 ## 📷 5. Figure Formatting
 
 LaTeX supports single-column and multi-column figures. Ensure your figures are high resolution (.pdf or .eps).
 
-
 Single Figure
+
 ```
 \begin{figure*}[t]
   \centering
@@ -172,6 +172,7 @@ Single Figure
 ```
 
 Multiple Figures (Subfigures using tabular environment)
+
 ```
 \begin{figure}[t]
     \centering
@@ -218,6 +219,3 @@ TODO: Latex pre-define
 ```
 
 ---
-
-
-````
