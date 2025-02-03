@@ -266,3 +266,17 @@ TODO: Latex pre-define
 
 - **Vector Graphics Library**: [IconFont](https://www.iconfont.cn/)
 - **Color Palette Generator**: [ColorKit](https://colorkit.co/)
+
+---
+
+# 🔒 Anonymous Code Submission
+
+- 📂 1. Submission Guidelines
+
+  > All code submissions must be made through an anonymous repository to ensure privacy and neutrality.
+  > Contributors should ensure no personal or identifiable information is included in the code or documentation.
+
+- 🚀 2. Repository for Submissions
+
+Please use the following repository for anonymous code contributions:
+• Anonymous Repository: https://anonymous.4open.science/
