@@ -219,3 +219,50 @@ TODO: Latex pre-define
 ```
 
 ---
+
+# 📚 AI Tools for Academic Writing
+
+## 🛠️ Recommended AI Tools
+
+1. **GPT Academic** - [GitHub Repository](https://github.com/binary-husky/gpt_academic)
+2. **NextChat (ChatGPT Next Web)** - [GitHub Repository](https://github.com/ChatGPTNextWeb/NextChat)
+
+## 🎯 Useful Prompts
+
+- **Bilingual Translation**
+
+  > I want you to act as a scientific English-Chinese translator. I will provide you with a paragraph in one language, and your task is to accurately and academically translate it into the other language. Do not repeat the original text. Use natural language processing and effective writing techniques to enhance readability. Identify the original language first, then provide the translation.
+
+- **Academic Writing Enhancement**
+
+  > Below is a paragraph from an academic paper. Please refine it to align with formal academic style, improving spelling, grammar, clarity, conciseness, and readability. Rewrite entire sentences if necessary. First, provide the polished paragraph. Then, list all modifications in a markdown table, explaining the rationale behind each change.
+
+- **Paper Polishing for Submission**
+
+  > I am preparing my _[conference/journal name]_ paper for submission and require assistance in refining each paragraph for academic rigor. Please correct grammatical errors, enhance sentence structure for scholarly suitability, and formalize the tone where needed. Provide a markdown table with three columns: (1) Original sentence, (2) Highlighted revision, and (3) Explanation for the change. Finally, rewrite the fully revised paragraph. If you understand, please reply: "Yes, let's get started."
+
+- **Persuasive Academic Writing Feedback**
+
+  > Please review my writing style and provide feedback on how to make it more persuasive and compelling for academic submission. Include a revised version of my paragraph with enhanced readability and coherence.
+
+- **Clarity & Readability Improvement**
+  > As a non-native English speaker, I need help improving the clarity of my writing. Please check for grammar, spelling, and structural issues while suggesting clearer alternatives. Provide the fully revised paragraph.
+
+---
+
+# 🎨 Framework Design
+
+## 🖥️ Recommended Software
+
+- **Microsoft PowerPoint (PPT)** – Widely used for creating high-quality visual frameworks, including oral presentation figures.
+- **Visio** – Ideal for complex diagramming and flowchart creation.
+
+## 📝 Font & Style Guidelines
+
+- **Font Style**: Arial, Helvetica, Sans Serif
+- **Consistent color themes** to maintain readability and professional aesthetics.
+
+## 🎨 Design Resources
+
+- **Vector Graphics Library**: [IconFont](https://www.iconfont.cn/)
+- **Color Palette Generator**: [ColorKit](https://colorkit.co/)
