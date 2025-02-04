@@ -20,6 +20,11 @@
 
 To begin, download the official LaTeX template from the target conference website. Look for the “Call for Papers” section, where you’ll find Author Instructions and Style Files.
 
+<div align="center">  
+  <img src="images/README/1738679302304.png" width="25%" alt="Conference Call for Papers">  
+  <img src="images/README/1738679324424.png" width="45%" alt="Author Guidelines and Style Files">  
+</div>
+
 For Overleaf users, upload the template directly to your Overleaf project:
 🔗 [Overleaf](https://www.overleaf.com/)
 
@@ -50,7 +55,7 @@ Best Practices:
 
 - ✅ Use \input{} to modularize sections instead of writing everything in main.tex.
 - ✅ Keep figures and tables in dedicated folders for better file management.
-- ✅ Follow the conference’s required file structure (e.g., supplementary materials).
+- ✅ Follow the conference's required file structure (e.g., supplementary materials).
 
 ## 📚 3. Citation and Reference Formatting
 
@@ -69,7 +74,7 @@ BibTeX Example:
 @article{example_journal,
   author  = {John Doe and Jane Smith},
   title   = {Deep Learning for XYZ},
-  journal = {IEEE TPAMI},
+  journal = PAMI,
   volume  = {42},
   number  = {4},
   pages   = {123-135},
@@ -77,7 +82,7 @@ BibTeX Example:
 }
 ```
 
-Conference and Journal Name Shortcuts
+When writing academic papers in LaTeX, defining shorthand for commonly referenced conferences and journals can help maintain consistency and reduce redundancy in citations. Below is a set of predefined BibTeX string abbreviations for major conferences and journals:
 
 ```
 @String(PAMI  = {IEEE TPAMI})
@@ -108,7 +113,17 @@ Conference and Journal Name Shortcuts
 @String(CSVT = {IEEE TCSVT})
 ```
 
-💡 Tip: Use \cite{} for standard citations, \citep{} for parenthetical citations, and \citet{} for inline citations.
+- 📝 Customizing Your Abbreviations
+
+  > You can modify these shortcuts to match your preferred citation style or add additional conferences and journals as needed. Simply include the @String definitions in your BibTeX file.
+
+- 🔹 Citation Usage Tips
+
+  > Use \cite{} for standard citations.
+  > Use \citep{} for parenthetical citations (e.g., ”… has been studied extensively (Smith et al., 2023)”).
+  > Use \citet{} for inline citations (e.g., “Smith et al. (2023) proposed…”).
+
+  This method ensures consistency, clarity, and efficiency in managing references across your academic paper. 🚀
 
 ## 📊 4. Table Formatting
 
@@ -246,6 +261,7 @@ TODO: Latex pre-define
   > Please review my writing style and provide feedback on how to make it more persuasive and compelling for academic submission. Include a revised version of my paragraph with enhanced readability and coherence.
 
 - **Clarity & Readability Improvement**
+
   > As a non-native English speaker, I need help improving the clarity of my writing. Please check for grammar, spelling, and structural issues while suggesting clearer alternatives. Provide the fully revised paragraph.
 
 ---
@@ -280,3 +296,5 @@ TODO: Latex pre-define
 
 Please use the following repository for anonymous code contributions:
 • Anonymous Repository: https://anonymous.4open.science/
+
+---
