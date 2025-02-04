@@ -287,14 +287,43 @@ TODO: Latex pre-define
 
 # 🔒 Anonymous Code Submission
 
-- 📂 1. Submission Guidelines
+## 📂 1. Submission Guidelines
 
-  > All code submissions must be made through an anonymous repository to ensure privacy and neutrality.
-  > Contributors should ensure no personal or identifiable information is included in the code or documentation.
+> All code submissions must be made through an anonymous repository to ensure privacy and neutrality.  
+> Contributors should ensure no personal or identifiable information is included in the code or documentation.
 
-- 🚀 2. Repository for Submissions
+## 🚀 2. Repository for Submissions
 
-Please use the following repository for anonymous code contributions:
-• Anonymous Repository: https://anonymous.4open.science/
+Please use the following repository for anonymous code contributions:  
+🔗 **Anonymous Repository:** [anonymous.4open.science](https://anonymous.4open.science/)
+
+---
+
+# 🌐 Open-Source Project and Research Page
+
+## 🏗️ 1. Creating a Project Page
+
+To enhance visibility and accessibility, a **project page** can be created using GitHub Pages.  
+Follow these steps:
+
+1. Use the **[Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template)** as a starting point.
+2. Modify the HTML and Markdown files to fit your project details.
+3. Deploy the page on **GitHub Pages** (`yourusername.github.io/repository-name`).
+4. Ensure the page contains a clear **project summary, visualizations, and relevant links**.
+
+## 📖 2. Publishing on GitHub
+
+- **Avoid references to specific conferences or journals** to comply with double-blind review policies.
+- **Include a clear README** with structured documentation (e.g., installation, usage, and dataset information).
+- **Use an appropriate open-source license** (e.g., MIT, Apache 2.0).
+- **Keep commit history anonymous** by removing identifiable metadata from commits.
+
+## 📜 3. Preprint on arXiv
+
+For broader accessibility, consider submitting your research as a **preprint on arXiv**:
+
+🔗 **arXiv Submission Portal:** [arXiv.org](https://arxiv.org/)
+
+By following these steps, you ensure compliance with anonymity requirements while maximizing the impact of your research. 🚀
 
 ---
