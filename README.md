@@ -206,6 +206,23 @@ Multiple Figures (Subfigures using tabular environment)
 
 ## 🔧 6. Predefined Commands for Consistency
 
+To ensure **consistent formatting** in LaTeX documents, we provide predefined commands for commonly used abbreviations and Latin phrases. These commands help standardize writing across papers and improve readability.
+
+### 📌 Usage Instructions
+
+1. **Define the commands** in the LaTeX preamble (`.tex` file), typically in `main.tex` or a dedicated `commands.tex` file.
+2. **Use the commands** in the document body instead of manually formatting text, ensuring uniform typography.
+
+### 🖋️ Example Usage
+
+```
+\eg~is used to introduce examples, such as \eg apple, banana, and orange.
+
+\etal~is commonly used in citations, e.g., Smith \etal~(2023).
+```
+
+### 🛠️ Predefined Commands
+
 ```
 
 TODO: Latex pre-define
@@ -232,6 +249,115 @@ TODO: Latex pre-define
 \newcommand{\etal}{\emph{et al.}}
 
 ```
+
+💡 Tip: The \def method is more compact but should be used with care in large projects, while \newcommand is safer and recommended for modular LaTeX documents.
+
+## 📝 7. Mathematical Equations in LaTeX
+
+Proper formatting of equations in LaTeX ensures **clarity, consistency, and professional presentation** in academic writing. Below are standardized guidelines for using mathematical expressions in papers.
+
+### ✏️ Inline Equations
+
+For equations that appear **within a sentence**, use **`$...$`**:
+
+```latex
+The loss function is defined as $L = ||f(x) - y||^2$, where $f(x)$ is the model output.
+```
+
+### 📐 Display Equations
+
+- 🔹 (a) Single-Equation Block
+  For equations occupying a full line, use the equation environment. Each equation must end with appropriate punctuation (comma or period based on sentence structure).
+
+  ```
+  \begin{equation}
+    L = \sum_{i=1}^{n} ||f(x_i) - y_i||^2.
+    \label{eq:loss_function}
+  \end{equation}
+  ```
+
+- 🔹 (b) Multi-Line Equations with a Single Number
+  For multi-line equations sharing one equation number, use gather:
+
+  ```
+  \begin{gather}
+    L = \sum_{i=1}^{n} ||f(x_i) - y_i||^2, \\
+    \text{where } f(x_i) = W x_i + b.
+      \label{eq:multi_loss}
+  \end{gather}
+  ```
+
+- 🔹 (c) Multi-Line Equations with Individual Numbers
+  Use align for multiple equations where each line has a separate equation number. The & symbol specifies alignment positions.
+  ```
+  \begin{equation}
+    \begin{aligned}
+        L &= \sum_{i=1}^{n} ||f(x_i) - y_i||^2, \\
+        f(x_i) &= W x_i + b.
+    \end{aligned}
+    \label{eq:align_loss}
+  \end{equation}
+  ```
+
+### 🛠️ Essential Math Formatting
+
+- ✅ Proper Use of Brackets and Delimiters
+  Always use \left and \right to automatically adjust sizes of brackets, braces, or vertical bars.
+  ```
+  \begin{equation}
+    L = \left( \sum_{i=1}^{n} \left| f(x_i) - y_i \right|^p \right)^{\frac{1}{p}}.
+    \label{eq:norm}
+  \end{equation}
+  ```
+- ✅ Required Packages
+  Ensure the following packages are included in the LaTeX preamble:
+  ```
+  \usepackage{amsmath}   % Enhanced math typesetting
+  \usepackage{amssymb}   % Additional math symbols
+  \usepackage{bm}        % Bold math symbols
+  ```
+- ✅ Using Math Blackboard (\mathbb{}) and Calligraphic (\mathcal{}) Letters
+  - Blackboard Bold (\mathbb{}) is commonly used for number sets:
+    > \mathbb{R}, \mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{C}
+  - Calligraphic (\mathcal{}) is often used for functions or sets:
+    > \mathcal{L}, \mathcal{D}, \mathcal{F}
+- ✅ Using \text{} in Equations
+  Use \text{} inside equations to include normal text:
+  ```
+  \begin{equation}
+    L = \sum_{i=1}^{n} ||f(x_i) - y_i||^2, \quad \text{where } f(x_i) = W x_i + b.
+    \label{eq:text_example}
+  \end{equation}
+  ```
+  💡 Tip: Avoid using \mathrm{} for standard text inside equations. Use \text{} instead for proper spacing and formatting.
+
+## 🔖 8. Citation Formatting in LaTeX
+
+### 🔹 Non-Breaking Spaces (`~`)
+
+Always use `~` for non-breaking spaces to **prevent unintended line breaks** in references
+
+> ~\cite{author2024}
+
+### 📑 Citing Research Papers
+
+- Standard Paper Citation
+  Most LaTeX templates use cite, citep, or citet. The exact command may vary depending on the bibliography package (natbib, biblatex, etc.).
+
+  > Multiple studies~\cite{author2024, researcher2023} have explored this phenomenon.
+
+- For author-based citations (when using natbib):
+
+  > \citet{author2024} proposed an innovative approach.
+
+- For inline citations:
+  > According to~\citep{author2024}, this method is effective.
+
+NOTE: Different templates may use different citation commands. Check the template’s documentation for compatibility.
+
+### 🏷️ Referencing Equations, Figures, and Sections
+
+Use **\Cref{}** (from the cleveref package) to automatically adjust label.
 
 ---
 
@@ -289,12 +415,12 @@ TODO: Latex pre-define
 
 ## 📂 1. Submission Guidelines
 
-> All code submissions must be made through an anonymous repository to ensure privacy and neutrality.  
+> All code submissions must be made through an anonymous repository to ensure privacy and neutrality.
 > Contributors should ensure no personal or identifiable information is included in the code or documentation.
 
 ## 🚀 2. Repository for Submissions
 
-Please use the following repository for anonymous code contributions:  
+Please use the following repository for anonymous code contributions:
 🔗 **Anonymous Repository:** [anonymous.4open.science](https://anonymous.4open.science/)
 
 ---
@@ -303,7 +429,7 @@ Please use the following repository for anonymous code contributions:
 
 ## 🏗️ 1. Creating a Project Page
 
-To enhance visibility and accessibility, a **project page** can be created using GitHub Pages.  
+To enhance visibility and accessibility, a **project page** can be created using GitHub Pages.
 Follow these steps:
 
 1. Use the **[Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template)** as a starting point.
@@ -327,3 +453,7 @@ For broader accessibility, consider submitting your research as a **preprint on 
 By following these steps, you ensure compliance with anonymity requirements while maximizing the impact of your research. 🚀
 
 ---
+
+```
+
+```
