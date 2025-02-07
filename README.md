@@ -16,6 +16,17 @@
 
 # 📜 LaTeX Basics for Academic Paper Writing
 
+If you're new to LaTeX, I highly recommend starting with the document titled "110 Minutes to Learn LaTeX". This resource will quickly bring you up to speed with the basics of LaTeX and is perfect for beginners. You can access it here:  
+[110 Minutes to Learn LaTeX](https://ctan.math.washington.edu/tex-archive/info/lshort/chinese/lshort-zh-cn.pdf)
+
+For more experienced LaTeX users, this document serves as an excellent reference guide for common LaTeX commands. I personally use it to look up specific symbol usage. Notably, I often refer to the following sections:
+
+- **4.9 Symbol Table**: This section provides detailed instructions on various symbols in LaTeX, from basic to advanced usage.
+  - **4.9.1 LaTeX Ordinary Symbols**: Includes common math symbols, operators, and general symbols.
+  - **4.9.2 AMS Symbols**: This section is particularly useful for advanced academic writing, offering a wide range of mathematical and scientific symbols.
+
+By using this guide, you’ll be able to quickly find and apply the symbols you need for your academic papers.
+
 ## 📥 1. Downloading Conference Templates
 
 To begin, download the official LaTeX template from the target conference website. Look for the “Call for Papers” section, where you’ll find Author Instructions and Style Files.
