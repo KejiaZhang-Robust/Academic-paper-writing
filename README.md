@@ -142,6 +142,7 @@ Basic Table (Resizable to Page Width)
 \begin{table*}[t]
   \centering
   \caption{Performance Comparison on Benchmark Datasets}
+  \renewcommand{\arraystretch}{1.0} % Adjust line height
   \label{tab:results}
     \resizebox{\textwidth}{!}{
         \begin{tabular}{lcccc}
