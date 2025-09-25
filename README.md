@@ -16,7 +16,7 @@
 
 # 📜 LaTeX Documentation for Academic Writing
 
-If you're new to LaTeX, I recommend starting with the "110 Minutes to Learn LaTeX" guide for a quick and effective introduction.  
+If you're new to LaTeX, I recommend starting with the "111 Minutes to Learn LaTeX" guide for a quick and effective introduction.  
 [Read the guide here](https://ctan.math.washington.edu/tex-archive/info/lshort/chinese/lshort-zh-cn.pdf)
 
 For experienced users, this document serves as an invaluable resource for referencing LaTeX commands and symbols, including the symbol table and both ordinary and advanced mathematical symbols. It's a go-to reference for efficient handling of LaTeX syntax and advanced typesetting needs.
